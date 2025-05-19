@@ -1,0 +1,6 @@
+{
+  "api_endpoint": "http://localhost:3000/api/health-reports",
+  "check_interval": 900,
+  "log_level": "INFO",
+  "enable_debug": false
+}

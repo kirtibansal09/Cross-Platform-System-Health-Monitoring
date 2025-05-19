@@ -1,0 +1,189 @@
+2025-05-16 23:35:41,412 - SystemHealthMonitor - INFO - Starting System Health Monitor
+2025-05-16 23:35:41,414 - SystemHealthMonitor - INFO - Using API endpoint: http://localhost:3000/api/health-reports
+2025-05-16 23:35:41,414 - SystemHealthMonitor - INFO - Machine ID: cc7ee917-089e-4149-b2c9-23a889ffa690
+2025-05-16 23:35:41,414 - SystemHealthMonitor - INFO - Check interval: 900 seconds
+2025-05-16 23:35:41,414 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-16 23:35:48,209 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:35:41.414417", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:35:48,210 - SystemHealthMonitor - INFO - Sending report to API: http://localhost:3000/api/health-reports
+2025-05-16 23:35:48,210 - SystemHealthMonitor - INFO - Request headers: {'Content-Type': 'application/json', 'User-Agent': 'SystemHealthMonitor/Windows'}
+2025-05-16 23:35:48,211 - SystemHealthMonitor - INFO - Request data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:35:41.414417", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:35:50,270 - SystemHealthMonitor - INFO - API response: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/health-reports</pre>
+</body>
+</html>
+
+2025-05-16 23:35:50,272 - SystemHealthMonitor - ERROR - Failed to report to API: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/health-reports</pre>
+</body>
+</html>
+
+2025-05-16 23:35:50,274 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-16 23:35:56,431 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:35:50.274896", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:35:56,431 - SystemHealthMonitor - INFO - Changes detected, sending report
+2025-05-16 23:35:56,431 - SystemHealthMonitor - INFO - Sending report to API: http://localhost:3000/api/health-reports
+2025-05-16 23:35:56,431 - SystemHealthMonitor - INFO - Request headers: {'Content-Type': 'application/json', 'User-Agent': 'SystemHealthMonitor/Windows'}
+2025-05-16 23:35:56,432 - SystemHealthMonitor - INFO - Request data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:35:50.274896", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:35:58,482 - SystemHealthMonitor - INFO - API response: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/health-reports</pre>
+</body>
+</html>
+
+2025-05-16 23:35:58,483 - SystemHealthMonitor - ERROR - Failed to report to API: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/health-reports</pre>
+</body>
+</html>
+
+2025-05-16 23:36:48,918 - SystemHealthMonitor - INFO - Starting System Health Monitor
+2025-05-16 23:36:48,918 - SystemHealthMonitor - INFO - Using API endpoint: http://localhost:3000/api/health-reports
+2025-05-16 23:36:48,919 - SystemHealthMonitor - INFO - Machine ID: cc7ee917-089e-4149-b2c9-23a889ffa690
+2025-05-16 23:36:48,919 - SystemHealthMonitor - INFO - Check interval: 900 seconds
+2025-05-16 23:36:48,919 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-16 23:36:55,180 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:36:48.919610", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:36:55,195 - SystemHealthMonitor - INFO - Sending report to API: http://localhost:3000/api/health-reports
+2025-05-16 23:36:55,196 - SystemHealthMonitor - INFO - Request headers: {'Content-Type': 'application/json', 'User-Agent': 'SystemHealthMonitor/Windows'}
+2025-05-16 23:36:55,196 - SystemHealthMonitor - INFO - Request data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:36:48.919610", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:36:55,231 - SystemHealthMonitor - INFO - API response: 200 - {"success":true,"message":"Report received"}
+2025-05-16 23:36:55,232 - SystemHealthMonitor - INFO - Successfully reported to API: 200
+2025-05-16 23:36:55,233 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-16 23:37:01,416 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:36:55.233663", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:37:01,417 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-16 23:52:01,418 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-16 23:52:07,747 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-16T23:52:01.419658", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-16 23:52:07,747 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 11:52:22,955 - SystemHealthMonitor - INFO - Starting System Health Monitor
+2025-05-17 11:52:22,956 - SystemHealthMonitor - INFO - Using API endpoint: http://localhost:3000/api/health-reports
+2025-05-17 11:52:22,956 - SystemHealthMonitor - INFO - Machine ID: cc7ee917-089e-4149-b2c9-23a889ffa690
+2025-05-17 11:52:22,956 - SystemHealthMonitor - INFO - Check interval: 900 seconds
+2025-05-17 11:52:22,956 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 11:52:30,342 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T11:52:22.956761", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 11:52:30,343 - SystemHealthMonitor - INFO - Sending report to API: http://localhost:3000/api/health-reports
+2025-05-17 11:52:30,360 - SystemHealthMonitor - INFO - Request headers: {'Content-Type': 'application/json', 'User-Agent': 'SystemHealthMonitor/Windows'}
+2025-05-17 11:52:30,361 - SystemHealthMonitor - INFO - Request data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T11:52:22.956761", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 11:52:30,493 - SystemHealthMonitor - INFO - API response: 200 - {"success":true,"message":"Report received"}
+2025-05-17 11:52:30,494 - SystemHealthMonitor - INFO - Successfully reported to API: 200
+2025-05-17 11:52:30,496 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 11:52:36,837 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T11:52:30.496969", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 11:52:36,839 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 12:07:36,841 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 12:07:43,141 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T12:07:36.841495", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 12:07:43,142 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 12:22:43,143 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 12:22:50,717 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T12:22:43.143864", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 12:22:50,718 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 12:37:50,719 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 12:37:57,546 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T12:37:50.720312", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 12:37:57,546 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 12:57:00,765 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 12:57:07,471 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T12:57:00.766078", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 12:57:07,473 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 13:12:07,475 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 13:12:14,041 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T13:12:07.475516", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 13:12:14,042 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 13:30:48,303 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 13:30:56,429 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T13:30:48.304522", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 13:30:56,430 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 14:06:44,900 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 14:06:53,001 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T14:06:44.930075", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 14:06:53,003 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 14:21:53,003 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 14:21:59,412 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T14:21:53.005785", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 14:21:59,414 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 14:36:59,415 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 14:37:06,343 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T14:36:59.416829", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 14:37:06,344 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 14:52:06,345 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 14:52:12,661 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T14:52:06.346336", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 14:52:12,663 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 15:07:12,664 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 15:07:19,538 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T15:07:12.666249", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 15:07:19,540 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 16:17:40,414 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 16:17:48,634 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T16:17:40.443936", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 16:17:48,634 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 16:32:48,635 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 16:32:55,183 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T16:32:48.636652", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 16:32:55,183 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 16:47:55,184 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 16:48:01,511 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T16:47:55.186764", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 16:48:01,512 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 17:03:01,513 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 17:03:07,928 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T17:03:01.515262", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 17:03:07,929 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 17:18:07,929 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 17:18:14,406 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T17:18:07.930164", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 17:18:14,407 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 17:33:14,412 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 17:33:20,959 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T17:33:14.413141", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 17:33:20,959 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 17:48:20,984 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 17:48:27,695 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T17:48:20.986056", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 17:48:27,697 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 18:10:05,686 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 18:10:12,794 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T18:10:05.687310", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 18:10:12,794 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 21:14:57,493 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 21:15:04,671 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T21:14:57.515854", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 21:15:04,671 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 21:30:04,727 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 21:30:11,095 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T21:30:04.736900", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 21:30:11,096 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 21:45:11,097 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 21:45:17,998 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T21:45:11.100152", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 21:45:17,999 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 22:00:17,999 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 22:00:24,408 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T22:00:18.000391", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 22:00:24,417 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 22:35:22,857 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 22:35:30,003 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T22:35:22.859209", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 22:35:30,003 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 22:50:30,104 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 22:50:36,896 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T22:50:30.107026", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 22:50:36,896 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 23:05:36,922 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 23:05:43,418 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T23:05:36.924801", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 23:05:43,418 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-17 23:20:43,428 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-17 23:20:50,053 - SystemHealthMonitor - INFO - Collected data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-17T23:20:43.429386", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-17 23:20:50,053 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-19 23:33:34,180 - SystemHealthMonitor - INFO - Starting System Health Monitor
+2025-05-19 23:33:34,181 - SystemHealthMonitor - INFO - Using API endpoint: http://localhost:3000/api/health-reports
+2025-05-19 23:33:34,181 - SystemHealthMonitor - INFO - Machine ID: cc7ee917-089e-4149-b2c9-23a889ffa690
+2025-05-19 23:33:34,181 - SystemHealthMonitor - INFO - Check interval: 900 seconds
+2025-05-19 23:33:34,181 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-19 23:33:40,957 - SystemHealthMonitor - INFO - Sending report to API: http://localhost:3000/api/health-reports
+2025-05-19 23:33:40,957 - SystemHealthMonitor - INFO - Request headers: {'Content-Type': 'application/json', 'User-Agent': 'SystemHealthMonitor/Windows'}
+2025-05-19 23:33:40,957 - SystemHealthMonitor - INFO - Request data: {"machine_id": "cc7ee917-089e-4149-b2c9-23a889ffa690", "timestamp": "2025-05-19T23:33:34.181748", "os_name": "Windows", "os_version": "10.0.22631", "checks": {"disk_encryption": false, "os_updated": false, "antivirus_active": true, "sleep_settings_ok": true}}
+2025-05-19 23:33:41,001 - SystemHealthMonitor - INFO - API response: 200 - {"success":true,"message":"Report received"}
+2025-05-19 23:33:41,001 - SystemHealthMonitor - INFO - Successfully reported to API: 200
+2025-05-19 23:33:41,002 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-19 23:33:47,139 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-19 23:48:47,141 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-19 23:48:53,740 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-20 00:03:53,741 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-20 00:04:00,336 - SystemHealthMonitor - INFO - No changes detected, skipping report
+2025-05-20 00:19:00,337 - SystemHealthMonitor - INFO - Collecting system health data...
+2025-05-20 00:19:06,808 - SystemHealthMonitor - INFO - No changes detected, skipping report
